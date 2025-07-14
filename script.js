@@ -74,6 +74,9 @@ function nextQuestion() {
 
   if (parseInt(selected.value) === questions[currentQuestion].answer) {
     score++;
+    triggerCorrectEffect();
+  } else {
+    triggerWrongEffect();
   }
 
   currentQuestion++;

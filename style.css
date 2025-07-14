@@ -1,10 +1,11 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand&display=swap');
+
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to bottom right, #ffe6f0, #e6f2ff);
-  color: #333;
   margin: 0;
-  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(to top right, #ffe6f0, #e0f7fa);
+  overflow-x: hidden;
 }
 
 .container {
@@ -15,39 +16,70 @@ body {
   background: white;
   border-radius: 20px;
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.5rem;
+  color: #cc3366;
+}
+
+#question {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #444;
 }
 
 .foto {
   max-width: 100%;
-  border-radius: 12px;
+  border-radius: 15px;
   margin-bottom: 1rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
 button {
-  padding: 10px 20px;
-  background-color: #ff6699;
+  padding: 12px 24px;
+  background: #ff99cc;
   color: white;
   border: none;
-  border-radius: 8px;
-  cursor: pointer;
+  border-radius: 30px;
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
 }
 
 button:hover {
-  background-color: #cc3366;
+  background: #e91e63;
 }
 
 label {
   display: block;
-  text-align: left;
-  margin: 0.5rem auto;
-  padding: 0.5rem;
   background: #f0f8ff;
-  border-radius: 8px;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 15px;
   cursor: pointer;
+  text-align: left;
+  transition: 0.2s;
 }
 
-#result h2 {
-  color: #cc3366;
+label:hover {
+  background-color: #e0f7fa;
+}
+
+#background-text {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Great Vibes', cursive;
+  font-size: 5rem;
+  color: rgba(255, 192, 203, 0.15);
+  white-space: nowrap;
+  z-index: -1;
+  pointer-events: none;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.05);
 }
