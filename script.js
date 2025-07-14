@@ -1,3 +1,4 @@
+
 const questions = [
   {
     question: "Apa makanan favorit Egi yang paling sering disebut? Tapi ga pernah makan lagi",
