@@ -83,3 +83,59 @@ label:hover {
   pointer-events: none;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.05);
 }
+/* Animasi zoom-out */
+.zoom-out {
+  animation: zoomOut 1s ease-in-out;
+}
+
+@keyframes zoomOut {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }/* Animasi zoom-out */
+.zoom-out {
+  animation: zoomOut 1s ease-in-out;
+}
+
+@keyframes zoomOut {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+  /* Animasi zoom-out */
+.zoom-out {
+  animation: zoomOut 1s ease-in-out;
+}
+
+@keyframes zoomOut {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+}/* Animasi zoom-out */
+.zoom-out {
+  animation: zoomOut 1s ease-in-out;
+}
+
+@keyframes zoomOut {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+}
